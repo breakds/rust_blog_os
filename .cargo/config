@@ -1,5 +1,6 @@
 [build]
 target = "x86_64-bare.json"
 
+# Enables the command `cargo xrun`.
 [target.'cfg(target_os = "none")']
 runner = "bootimage runner"
